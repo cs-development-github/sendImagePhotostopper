@@ -1,2 +1,1 @@
-"# sendImagePhotostopper" 
-"# sendImagePhotostopper" 
+npm install 

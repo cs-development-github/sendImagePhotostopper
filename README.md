@@ -4,12 +4,13 @@
 
 # PhotoStopper
 
-[![Site Admin](https://img.shields.io/badge/try-demo-green.svg)](https://admin.photostopper.fr)
+
+# Languages
+
+[![Site Vitrine](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://fr.reactjs.org/)
+[![Site Vitrine](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://symfony.com/)
 [![Site Vitrine](https://img.shields.io/badge/try-demo-green.svg)](https://photostopper.fr)
-
-# Language
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+[![Site Vitrine](https://img.shields.io/badge/try-demo-green.svg)](https://photostopper.fr)
 
 
 

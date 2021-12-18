@@ -29,7 +29,7 @@ The showcase site is available at [https://photostopper.fr](https://photostopper
 To run the project follow these commands.
 
 ```
-git clone 
+git clone https://github.com/cs-development-github/photostopperAPI.git
 composer install
 yarn dev
 //Modifier le .env ou crée .env.local

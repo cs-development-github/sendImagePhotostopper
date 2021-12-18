@@ -26,7 +26,17 @@ The showcase site is available at [https://photostopper.fr](https://photostopper
 
 ## Documentation
 
-Documentation is available [here](doc/index.md)
+To run the project follow these commands.
+
+```
+git clone 
+composer install
+yarn dev
+//Modifier le .env ou crée .env.local
+php bin/console make:migration
+php bin/console doctrine:migration:migrate
+php bin/console c:c
+```
 
 ## Contribute
 

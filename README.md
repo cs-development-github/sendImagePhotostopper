@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="https://admin.photostopper.fr/build/images/icon.36a6633e.png" alt="Cocorico"/>
+    <img src="https://photostopper.fr/images/photostopper.jpg" alt="PhotoStopper"/>
 </h1>
 
 # PhotoStopper

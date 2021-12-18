@@ -7,9 +7,9 @@
 [![Site Admin](https://img.shields.io/badge/try-demo-green.svg)](https://admin.photostopper.fr)
 [![Site Vitrine](https://img.shields.io/badge/try-demo-green.svg)](https://photostopper.fr)
 
-#Language
+# Language
 
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)]
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 
 

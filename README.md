@@ -43,6 +43,24 @@ php bin/console doctrine:migration:migrate
 php bin/console c:c
 ```
 
+For the .env.local
+
+```
+APP_ENV=prod
+APP_SECRET=52f6e537d55f3d591916c3dba19105b5
+APP_MAJOR_VERSION=1
+APP_VERSION="[version]"
+DATABASE_URL="mysql://[username]:[password]@127.0.0.1:3306/photostopper?serverVersion=5.7"
+CORS_ALLOW_ORIGIN='^https?://(localhost|127\.0\.0\.1)(:[0-9]+)?$'
+MAILER_DSN=smtp://[email]:[password]:Sm@ssl0.ovh.net:465
+DATABASE_LEGACY=""
+###> lexik/jwt-authentication-bundle ###
+JWT_SECRET_KEY=%kernel.project_dir%/config/jwt/private.pem
+JWT_PUBLIC_KEY=%kernel.project_dir%/config/jwt/public.pem
+JWT_PASSPHRASE=[JWT_PASSPHRASE]
+###< lexik/jwt-authentication-bundle ###
+````
+
 ## Contribute
 
 Anyone and everyone is welcome to contribute. Please take a moment to

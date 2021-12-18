@@ -21,7 +21,7 @@
 
 Photostopper is not an open source platform. Sponsored by PhotoStopper
 
-The showcase site is available at [http://photostopper.fr](https://photostopper.fr).
+The showcase site is available at [https://photostopper.fr](https://photostopper.fr).
 ![stability-wip](https://img.shields.io/badge/stability-work_in_progress-lightgrey.svg)
 
 ## Documentation

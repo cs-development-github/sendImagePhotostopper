@@ -66,31 +66,7 @@ In order to create a user with a password hasher, see table user and user_applic
 TIPS: 
 To hash the password in a simple way use the command: php bin/console security:encode-password.
 
-## Contribute
-
-Anyone and everyone is welcome to contribute. Please take a moment to
-review the [guidelines for contributing](CONTRIBUTING.md).
-
-* [Bug reports](CONTRIBUTING.md#bugs)
-* [Feature requests](CONTRIBUTING.md#features)
-* [Pull requests](CONTRIBUTING.md#pull-requests)
-
-The [ROADMAP](ROADMAP.md) list the planned features.
-
-## Changelog
- - Fix similar listings session persisting
-
-[CHANGELOG.md](CHANGELOG.md) list the relevant changes done for each release.
-
-## Community
-
-Stay informed on Cocorico developments on [Twitter](https://twitter.com/cocorico_rocks).
 
 ## License
 
-Cocorico is released under the [MIT license](LICENSE).
-
-
-## About Us
-
-Cocorico is a creation of [Cocolabs](https://www.cocolabs.com/en/?utm_source=github&utm_medium=cocorico-page&utm_campaign=organic) specialist of online services sales solutions.
+PhotoStopper is released under the [MIT license](LICENSE).

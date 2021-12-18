@@ -8,14 +8,14 @@
 # Languages
 
 [![Site Vitrine](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://fr.reactjs.org/)
+[![Site Vitrine](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactnative.dev/docs/getting-started)
 [![Site Vitrine](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://symfony.com/)
 [![Site Vitrine](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/HTML)
 [![Site Vitrine](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/CSS/Reference)
 [![Site Vitrine](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/fr/docs/Web/JavaScript)
 [![Site Vitrine](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/documentation)
-[![Site Vitrine](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactnative.dev/docs/getting-started)
-[![Site Vitrine](https://img.shields.io/badge/try-demo-green.svg)](https://developer.mozilla.org/fr/docs/Web/CSS/Reference)
-[![Site Vitrine](https://img.shields.io/badge/try-demo-green.svg)](https://developer.mozilla.org/fr/docs/Web/CSS/Reference)
+[![Site Vitrine](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
+[![Site Vitrine](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)](https://dev.mysql.com/doc/)
 
 
 

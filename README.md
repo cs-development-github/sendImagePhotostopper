@@ -37,7 +37,7 @@ To run the project follow these commands.
 git clone https://github.com/cs-development-github/photostopperAPI.git
 composer install
 yarn dev
-#Modifier le .env ou crée .env.local
+<-- Modifier le .env ou crée .env.local -->
 php bin/console make:migration
 php bin/console doctrine:migration:migrate
 php bin/console c:c

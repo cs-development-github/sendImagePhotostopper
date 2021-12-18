@@ -19,9 +19,10 @@
 
 
 
-Cocorico is an open source platform sponsored by [Cocolabs](https://www.cocolabs.com/en/?utm_source=github&utm_medium=cocorico-page&utm_campaign=organic) to create collaborative consumption marketplaces.
+Photostopper is not an open source platform. Sponsored by PhotoStopper
 
-A demo is available at [http://demo.cocorico.io](https://www.cocorico.io/en/demo/).
+The showcase site is available at [http://photostopper.fr](https://photostopper.fr).
+![stability-wip](https://img.shields.io/badge/stability-work_in_progress-lightgrey.svg)
 
 ## Documentation
 

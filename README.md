@@ -27,9 +27,9 @@ The showcase site is available at [https://photostopper.fr](https://photostopper
 ## Documentation
 
 Needs
-    - Php <= 7.3.21
-    - Yarn <= 1.22.15
-    - Composer <=  2.1.9
+- Php <= 7.3.21
+- Yarn <= 1.22.15
+- Composer <=  2.1.9
 
 To run the project follow these commands.
 

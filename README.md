@@ -9,8 +9,14 @@
 
 [![Site Vitrine](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://fr.reactjs.org/)
 [![Site Vitrine](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://symfony.com/)
-[![Site Vitrine](https://img.shields.io/badge/try-demo-green.svg)](https://photostopper.fr)
-[![Site Vitrine](https://img.shields.io/badge/try-demo-green.svg)](https://photostopper.fr)
+[![Site Vitrine](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/HTML)
+[![Site Vitrine](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/CSS/Reference)
+[![Site Vitrine](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/fr/docs/Web/JavaScript)
+[![Site Vitrine](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/documentation)
+[![Site Vitrine](https://img.shields.io/badge/try-demo-green.svg)](https://developer.mozilla.org/fr/docs/Web/CSS/Reference)
+[![Site Vitrine](https://img.shields.io/badge/try-demo-green.svg)](https://developer.mozilla.org/fr/docs/Web/CSS/Reference)
+[![Site Vitrine](https://img.shields.io/badge/try-demo-green.svg)](https://developer.mozilla.org/fr/docs/Web/CSS/Reference)
+[![Site Vitrine](https://img.shields.io/badge/try-demo-green.svg)](https://developer.mozilla.org/fr/docs/Web/CSS/Reference)
 
 
 

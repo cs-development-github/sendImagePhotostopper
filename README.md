@@ -7,6 +7,12 @@
 [![Site Admin](https://img.shields.io/badge/try-demo-green.svg)](https://admin.photostopper.fr)
 [![Site Vitrine](https://img.shields.io/badge/try-demo-green.svg)](https://photostopper.fr)
 
+#Language
+
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)]
+
+
+
 Cocorico is an open source platform sponsored by [Cocolabs](https://www.cocolabs.com/en/?utm_source=github&utm_medium=cocorico-page&utm_campaign=organic) to create collaborative consumption marketplaces.
 
 A demo is available at [http://demo.cocorico.io](https://www.cocorico.io/en/demo/).

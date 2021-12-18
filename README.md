@@ -60,6 +60,11 @@ JWT_PUBLIC_KEY=%kernel.project_dir%/config/jwt/public.pem
 JWT_PASSPHRASE=[JWT_PASSPHRASE]
 ###< lexik/jwt-authentication-bundle ###
 ````
+For everything that is database / fixtures, it is in rework.
+In order to create a user with a password hasher, see table user and user_application, then the panel is accessible.
+
+TIPS: 
+To hash the password in a simple way use the command: php bin/console security:encode-password.
 
 ## Contribute
 

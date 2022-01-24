@@ -1,28 +1,6 @@
-<h1 align="center">
-    <img src="https://admin.photostopper.fr/build/images/icon.36a6633e.png" alt="PhotoStopper"/>
-</h1>
-
-# PhotoStopper
 
 
-# Languages
-
-[![Site Vitrine](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://fr.reactjs.org/)
-[![Site Vitrine](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactnative.dev/docs/getting-started)
-[![Site Vitrine](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://symfony.com/)
-[![Site Vitrine](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/HTML)
-[![Site Vitrine](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/fr/docs/Web/CSS/Reference)
-[![Site Vitrine](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/fr/docs/Web/JavaScript)
-[![Site Vitrine](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/documentation)
-[![Site Vitrine](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
-[![Site Vitrine](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)](https://dev.mysql.com/doc/)
-
-
-
-Photostopper is not an open source platform. Sponsored by PhotoStopper
-
-The showcase site is available at [https://photostopper.fr](https://photostopper.fr).
-![stability-wip](https://img.shields.io/badge/stability-work_in_progress-lightgrey.svg)
+# Novelty Studio
 
 ## Documentation
 
@@ -34,7 +12,7 @@ Needs
 To run the project follow these commands.
 
 ```
-git clone https://github.com/cs-development-github/photostopperAPI.git
+https://github.com/cs-development-github/Template-Symfony.git
 composer install
 yarn dev
 <!-- Modifier le .env ou crée .env.local --!>
@@ -43,30 +21,37 @@ php bin/console doctrine:migration:migrate
 php bin/console c:c
 ```
 
-For the .env.local
+Modifier aussi le docker-composer.yml
+```
+version: '3.5'
+
+services:
+  db:
+    image: 'mysql:5.7'
+    ports:
+      - '3306:3306'
+    environment:
+      - 'MYSQL_ROOT_PASSWORD=toor'
+      - 'MYSQL_DATABASE=<bdName>'
+      - 'MYSQL_USER=<bdName>'
+      - 'MYSQL_PASSWORD=<bdName>'
+  mailhog:
+    image: mailhog/mailhog
+    ports:
+      - '1025:1025'
+      - '8025:8025'
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    depends_on:
+      - db
+    environment:
+      - 'MYSQL_ROOT_PASSWORD=toor'
+    ports:
+      - '8585:80'
+```
+Ensuite run la commande 
 
 ```
-APP_ENV=prod
-APP_SECRET=52f6e537d55f3d591916c3dba19105b5
-APP_MAJOR_VERSION=1
-APP_VERSION="[version]"
-DATABASE_URL="mysql://[username]:[password]@127.0.0.1:3306/photostopper?serverVersion=5.7"
-CORS_ALLOW_ORIGIN='^https?://(localhost|127\.0\.0\.1)(:[0-9]+)?$'
-MAILER_DSN=smtp://[email]:[password]:Sm@ssl0.ovh.net:465
-DATABASE_LEGACY=""
-###> lexik/jwt-authentication-bundle ###
-JWT_SECRET_KEY=%kernel.project_dir%/config/jwt/private.pem
-JWT_PUBLIC_KEY=%kernel.project_dir%/config/jwt/public.pem
-JWT_PASSPHRASE=[JWT_PASSPHRASE]
-###< lexik/jwt-authentication-bundle ###
-````
-For everything that is database / fixtures, it is in rework.
-In order to create a user with a password hasher, see table user and user_application, then the panel is accessible.
+docker composer up -d
 
-TIPS: 
-To hash the password in a simple way use the command: php bin/console security:encode-password.
-
-
-## License
-
-PhotoStopper is released under the [MIT license](LICENSE).
+```
